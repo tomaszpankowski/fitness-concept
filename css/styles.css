@@ -1,17 +1,3 @@
-/*
-$prefix: "../../../assets/";
-$bg__error-img: $prefix+"img/error.jpg";
-$bg__comingsoon-img: $prefix+"img/coming.jpg";
-$bg__privacy-img: $prefix+"img/privacy.jpg";
-$bg__init:
-    "error",
-    "comingsoon",
-    "privacy";
-$classes_init:
-    $bg__error-img,
-    $bg__comingsoon-img,
-    $bg__privacy-img;
-*/
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
@@ -329,6 +315,123 @@ body, html {
   min-height: 100vh;
 }
 
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.comingsoon-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/coming.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.error-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/error.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.privacy-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/privacy.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.programs-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/programs/programs-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.programs-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/programs/programs-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.programs-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/programs/programs-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.user-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/user/user-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 3, ../sass/partials/_modules.scss */
 .comingsoon-s1 {
   background-blend-mode: multiply;
@@ -342,4 +445,133 @@ body, html {
 /* line 9, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-blend-mode: multiply;
+}
+
+/* line 13, ../sass/partials/_modules.scss */
+.bg-red {
+  background-color: #920d0e;
+}
+
+/* line 18, ../sass/partials/_modules.scss */
+.about-s2 {
+  background-position: center;
+}
+
+/* line 23, ../sass/partials/_modules.scss */
+.index-s1, .about-s1 {
+  background-position: center;
+}
+
+/* line 28, ../sass/partials/_modules.scss */
+.programs-s1 {
+  background-color: #888 !important;
+  background-blend-mode: overlay !important;
+}
+
+/* line 34, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
+
+/* line 38, ../sass/partials/_modules.scss */
+nav {
+  z-index: 10;
+}
+
+/* line 41, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 414px) {
+  /* line 46, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-position: 64%;
+  }
+
+  /* line 51, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-position: 67%;
+  }
+  /* line 54, ../sass/partials/_modules.scss */
+  .contact-s2 {
+    background-position: 52%;
+  }
+
+  /* line 59, ../sass/partials/_modules.scss */
+  .programs-s1 {
+    background-color: #ccc !important;
+    background-blend-mode: overlay !important;
+    background-position: 45%;
+  }
+  /* line 64, ../sass/partials/_modules.scss */
+  .programs-s2 {
+    background-position: 42%;
+  }
+}
+@media all and (min-width: 415px) {
+  /* line 71, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-position: 79%;
+  }
+
+  /* line 76, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-position: 52%;
+  }
+  /* line 79, ../sass/partials/_modules.scss */
+  .contact-s2 {
+    background-position: top right;
+  }
+
+  /* line 84, ../sass/partials/_modules.scss */
+  .programs-s1 {
+    background-color: #ccc !important;
+    background-blend-mode: overlay !important;
+    background-position: 45%;
+  }
+  /* line 89, ../sass/partials/_modules.scss */
+  .programs-s2 {
+    background-position: 0%;
+  }
+}
+@media all and (min-width: 575px) {
+  /* line 96, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-position: 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 103, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-position: center;
+  }
+
+  /* line 108, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-position: top right;
+  }
+
+  /* line 113, ../sass/partials/_modules.scss */
+  .programs-s1 {
+    background-blend-mode: inherit !important;
+    background-position: top left;
+  }
+  /* line 117, ../sass/partials/_modules.scss */
+  .programs-s2 {
+    background-position: 50%;
+  }
+}
+@media all and (max-width: 767px) {
+  /* line 124, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #999 !important;
+    border: 1px solid #666 !important;
+    color: #333 !important;
+    padding: 10px;
+  }
+  /* line 125, ../sass/partials/_modules.scss */
+  .navbar-nav *:hover {
+    opacity: 0.8;
+  }
 }
