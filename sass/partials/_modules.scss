@@ -1,4 +1,4 @@
-//@include aoa-bg-series($bg__init,$classes_init);
+@include aoa-bg-series($bg__init,$classes_init);
 
 .comingsoon-s1{
     background-blend-mode: multiply;
@@ -8,4 +8,127 @@
 }
 .privacy-s1{
     background-blend-mode: multiply;
+}
+.bg{
+    &-red{
+        background-color: $color__red;
+    }
+}
+.about{
+    &-s2{
+        background-position: center;
+    }
+}
+.index,.about{
+    &-s1{
+        background-position: center;
+    }
+}
+.programs{
+    &-s1{
+        background-color: #888!important;
+        background-blend-mode: overlay!important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text-shadow;
+    }
+}
+nav{
+    z-index: 10;
+}
+textarea{
+    resize: none;
+}
+@media all and (max-width: 414px){
+    .about{
+        &-s2{
+            background-position: 64%;
+        }
+    }
+    .contact{
+        &-s1{
+            background-position: 67%;
+        }
+        &-s2{
+            background-position: 52%;
+        }
+    }
+    .programs{
+        &-s1{
+            background-color: #ccc!important;
+            background-blend-mode: overlay!important;
+            background-position: 45%;
+        }
+        &-s2{
+            background-position: 42%;
+        }
+    }
+}
+@media all and (min-width: 415px){
+    .about{
+        &-s2{
+            background-position: 79%;
+        }
+    }
+    .contact{
+        &-s1{
+            background-position: 52%;
+        }
+        &-s2{
+            background-position: top right;
+        }
+    }
+    .programs{
+        &-s1{
+            background-color: #ccc!important;
+            background-blend-mode: overlay!important;
+            background-position: 45%;
+        }
+        &-s2{
+            background-position: 0%;
+        }
+    }
+}
+@media all and (min-width: 575px){
+    .about{
+        &-s2{
+            background-position: 100%;
+        }
+    }
+}
+@media all and (min-width: 768px){
+    .about{
+        &-s2{
+            background-position: center;
+        }
+    }
+    .contact{
+        &-s1{
+            background-position: top right;
+        }
+    }
+    .programs{
+        &-s1{
+            background-blend-mode: inherit!important;
+            background-position: top left;
+        }
+        &-s2{
+            background-position: 50%;
+        }
+    }
+}
+@media all and (max-width: 767px){
+    .navbar{
+        &-nav{
+            *:hover{
+                opacity: 0.8;
+            }
+            background-color: #999!important;
+            border: 1px solid #666!important;
+            color: #333!important;
+            padding: 10px;
+        }
+    }
 }
